@@ -17,6 +17,8 @@ for (i = 0; i < 16; i++) {
 // For numbers which are multiples of both three and five print "FizzBuzz".
 
 for (i = 1; i < 101; i++) {
+    // эти значения i % 3 == 0 и i % 5 == 0 можно было бы сохранить в переменных и потом их использывать чтобы не писать онд ои тоже
+    // в сравнениях
     if (i % 3 == 0 && i % 5 == 0) {
         console.log('FizzBuzz');
     }
@@ -37,6 +39,9 @@ for (i = 1; i < 101; i++) {
 var a = +prompt('enter first value');
 var b = +prompt('enter second value');
 var gcd;
+
+// мне кажется тут что то не то сделано =)
+// нужно найти самое большое число на которое делять 2 переданных числа, тут явно понадобится цикл и деление что то на что то =)
 while (a!=b)
 {
     if (a>b)
