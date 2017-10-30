@@ -2,6 +2,8 @@
 // Create function "getName" that ask user his name with promt window and alerts his name to him in format: "Hello, <his_name>".
 
 function showName(name) {
+    // name сдесь лучше обьявить как локальную переменную 
+    // var name а из списка аргументов убрать)
     name= prompt("Enter you name");
     return "Hello, " +name
 }
